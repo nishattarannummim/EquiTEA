@@ -15,33 +15,7 @@ This repository represents the **overall EquiTEA project**, including system des
 
 ## Repository Structure
 
-EquiTEA/
-├── EquiTea_Backend/            # Backend implementation: computer-based prototype for worker identification, wage calculation, and blockchain integration
-│   ├── app.py                  # Flask server for face recognition and wage processing
-│   ├── blockchain.py           # Blockchain interaction logic
-│   ├── test_request.py         # Script to test blockchain functions independently
-│   ├── Simulated_UI.py         # Prototype user interface for testing wage processing
-│   ├── README.md               # Documentation for EquiTea_Backend
-│   └── known_faces/            # Directory storing facial images of workers (used for embeddings)
-│       └── README.md           # Notes on known_faces structure
-│
-├── EquiTea_IoT/                # IoT-based implementation: ESP32-CAM, sensors, and edge inference
-│   └── sketch_oct22a/
-│       ├── sketch_oct22a.ino  # Arduino/ESP32-CAM sketch for hardware operation
-│       ├── main_code.ino       # Main Arduino code for IoT processing
-│       ├── app_esp32.py        # Python code for edge device inference
-│       ├── blockchain.py       # Blockchain logic adapted for IoT
-│       ├── README.md           # Documentation for sketch_oct22a
-│       └── EquiTea_Image_Classification_inferencing/
-│           └── README.md       # Notes on image classification and edge inference
-│
-├── contracts/
-│   └── EquiTEA.sol             # Smart contract for wage computation and payment
-│
-├── EquiTEA_Figures/            # Folder containing all project diagrams and images for README
-│
-├── README.md                    # Root README for overall project description and usage
-└── .gitignore                   # Git ignore rules for sensitive or temporary files
+<pre> ``` EquiTEA/ ├── EquiTea_Backend/ # Backend implementation: computer-based prototype │ ├── app.py # Flask server │ ├── blockchain.py # Blockchain logic │ ├── test_request.py # Test script │ ├── Simulated_UI.py # Prototype UI │ ├── README.md # Backend docs │ └── known_faces/ # Worker face images │ └── README.md ├── EquiTea_IoT/ # IoT implementation: ESP32-CAM, sensors │ └── sketch_oct22a/ │ ├── sketch_oct22a.ino │ ├── main_code.ino │ ├── app_esp32.py │ ├── blockchain.py │ ├── README.md │ └── EquiTea_Image_Classification_inferencing/ │ └── README.md ├── contracts/ │ └── EquiTEA.sol ├── EquiTEA_Figures/ ├── README.md └── .gitignore ``` </pre>
 
 ## Motivation
 Bangladesh’s tea sector employs over 300,000 laborers, many of whom face:
