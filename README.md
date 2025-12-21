@@ -189,6 +189,5 @@ EquiTEA follows a layered security model:
 ## License
 
 This project is released for academic and research purposes.  
-Commercial deployment requires appropriate ethical, legal, and regulatory approvals.
 
 ---
